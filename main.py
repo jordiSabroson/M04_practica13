@@ -1,6 +1,9 @@
 from book import book
 from user import user
 from university import university
+from animal import animal
+from vehicle import vehicle
+from school import  school
 
 # INSTÀNCIES DE LA CLASSE BOOK:
 ramon = book("Ramón y su Camión", "Divertit", "2018", "JR", "5€", "Dura")
@@ -34,3 +37,33 @@ empuriaBrava = university("Universitat d'Empúriabrava", "2.320", "Alt Empordà"
 empuriaBrava.info()
 empuriaBrava.setArea("1,5 quilòmetres quadrats")
 empuriaBrava.info()
+
+# INSTÀNCIES DE LA CLASSE ANIMAL:
+cat = animal("javier","cat","blanca","5kg","22 meses","l'agrada menja peix")
+cat.salutacio()
+cat.setColor("negra")
+cat.salutacio()
+perro = animal("jordi","perro","blue","15kg","40 meses","l'agrada menja os")
+perro.salutacio()
+perro.setColor("verd")
+perro.salutacio()
+
+# INSTÀNCIES DE LA CLASSE VEHICLE:
+coche = vehicle("Q3","coche","blanca","audi","2018","13500€")
+coche.salutacio()
+coche.setColor("negra")
+coche.salutacio()
+moto = vehicle("Metralla","moto","blue","yamaha","2018","5500€")
+moto.salutacio()
+moto.setColor("negra")
+moto.salutacio()
+
+# INSTÀNCIES DE LA CLASSE SCHOOL:
+ins = school("jaume balmes","ciclo informatico","6","256","1962","un institut que te moltes largas historia")
+ins.salutacio()
+ins.setTipo("batxillerat")
+ins.salutacio()
+batxi = school("jaume balmes","batxillerat","4","156","1962","un batxillerat que te moltes largas historia")
+batxi.salutacio()
+batxi.setTipo("institut")
+batxi.salutacio()
